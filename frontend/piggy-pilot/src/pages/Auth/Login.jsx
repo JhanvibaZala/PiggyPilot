@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import AuthLayout from "../../components/layouts/AuthLayout";
-import Input from "frontend\piggy-pilot\src\components\Inputs\Input.jsx";
+import Input from "../../components/Inputs/Input";
 import { useNavigate } from "react-router-dom";
 import { validateEmail } from "../../utils/helper";
 import { API_PATH } from "../../utils/apiPath";
